@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(153, 161, 152);
+}
+
+div .kartyak{
+    border: 2px black solid;
+    background-color: rgb(118, 118, 118);
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    font-size: larger;
+}
+
+div .kartyak p{
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+}
+
+#kartyaContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#adatTablazatElem{
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#adatTablazatElem th{
+    border: 3px solid black;
+    box-shadow: 1px 1px 3px black;
+    padding: 5px;
+}
+
+#adatTablazatElem td{
+    border: 1px solid black;
+    padding: 5px;
+}
